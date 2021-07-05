@@ -66,6 +66,7 @@ h2 {
     padding-left: 30%;
     vertical-align: middle;
     display: inline-block;
+    background-attachment: fixed;
 }
 .about-us-left-section {
     width: 50%;
@@ -155,4 +156,53 @@ h2 {
 }
 .footer-text {
     color: #fff;
+}
+.topbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.topbar-left {
+    width: 30%;
+}
+.topbar-right {
+    width: 70%;
+}
+.topbar-right > ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.topbar-right > ul > li {
+    list-style: none;
+    padding: 20px 20px;
+}
+.topbar-right > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: .5s;
+}
+.topbar-right > ul > li:hover > a {
+    color: orangered;
+    border: 2px solid orangered;
+    padding: 10px 20px;
+}
+#topbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background: rgba(0, 0, 0, 0.041);
+}
+.brand {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+}
+.brand > span {
+    color: orangered;
 }
