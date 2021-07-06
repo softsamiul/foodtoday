@@ -5,6 +5,9 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 h2 {
     font-size: 60px;
     margin: 0px;
@@ -155,6 +158,9 @@ h2 {
     font-size: 30px;
 }
 .footer-text {
+    color: #fff;
+}
+.footer-text > a {
     color: #fff;
 }
 .topbar-wrapper {
