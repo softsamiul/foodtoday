@@ -296,6 +296,10 @@ h2 {
 }
 .single-item-blog {
     width: 30%;
+    /* border: 2px solid #962CEB; */
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px 4px rgba(188, 150, 203, 1.0);
 }
 .m-none {
     margin-top: 0;
