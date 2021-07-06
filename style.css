@@ -89,7 +89,7 @@ h2 {
 }
 
 #recipis-section {
-    margin: 50px;
+    padding: 100px;
 
 }
 .recipis-top-section {
@@ -195,7 +195,7 @@ h2 {
 }
 #topbar {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 10px 0;
