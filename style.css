@@ -174,7 +174,7 @@ h2 {
 }
 .topbar-right > ul > li {
     list-style: none;
-    padding: 20px 20px;
+    padding: 20px 10px;
 }
 .topbar-right > ul > li > a {
     text-decoration: none;
@@ -183,7 +183,7 @@ h2 {
     font-weight: 600;
     border: 2px solid transparent;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 20px 10px;
     transition: .5s;
 }
 .topbar-right > ul > li:hover > a {
@@ -205,4 +205,58 @@ h2 {
 }
 .brand > span {
     color: orangered;
+}
+
+#contact-us {
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-design {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.contact-us-header {
+    font-weight: 400;
+    font-size: 50px;
+}
+.contact-us-text {
+    font-size: 18px;
+    color: #575757;
+}
+.input-group {
+    display: flex;
+    justify-content: space-around;
+}
+.input-group > label {
+    width: 30%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.input-group > input, textarea {
+    width: 70%;
+    border: 1px solid #575757;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.msg-btn {
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: #962CEB;
+    background: -webkit-linear-gradient(top left, #962CEB, #39C588);
+    background: -moz-linear-gradient(top left, #962CEB, #39C588);
+    background: linear-gradient(to bottom right, #962CEB, #39C588);
+    transition: 1s;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.msg-btn:hover {
+    background: transparent;
+    border: 2px solid #39C588;
 }
