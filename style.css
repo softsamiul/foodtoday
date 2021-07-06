@@ -190,8 +190,6 @@ h2 {
 .topbar-right > ul > li:hover > a {
     color: orangered;
     border: 2px solid orangered;
-    padding: 10px 20px;
-    border-radius: 10px;
 }
 #topbar {
     width: 100%;
@@ -241,7 +239,7 @@ h2 {
 }
 .input-group > input, textarea {
     width: 70%;
-    border: 1px solid #575757;
+    border: 2px solid rgba(68, 108, 251, 0.877);
     padding: 10px;
     border-radius: 5px;
     margin: 5px 0;
