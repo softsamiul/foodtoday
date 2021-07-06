@@ -191,6 +191,7 @@ h2 {
     color: orangered;
     border: 2px solid orangered;
     padding: 10px 20px;
+    border-radius: 10px;
 }
 #topbar {
     width: 100%;
