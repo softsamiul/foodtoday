@@ -276,7 +276,7 @@ h2 {
 .blog-wrapper {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .blog-thumb {
     width: 100%;
@@ -296,4 +296,7 @@ h2 {
 }
 .single-item-blog {
     width: 30%;
+}
+.m-none {
+    margin-top: 0;
 }
